@@ -488,6 +488,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tw-mb-4 {
   margin-bottom: 1rem;
 }
+.tw-mt-\[32px\] {
+  margin-top: 32px;
+}
 .tw-flex {
   display: flex;
 }
@@ -616,6 +619,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tw-px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+.tw-px-\[12px\] {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.tw-py-\[24px\] {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.tw-py-\[12px\] {
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .tw-font-sans {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
