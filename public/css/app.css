@@ -774,5 +774,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 3.75rem;
     line-height: 1;
   }
+
+  .lg\:tw-text-\[30px\] {
+    font-size: 30px;
+  }
 }
 
