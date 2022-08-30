@@ -1,2 +1,5 @@
-node_modules
-/resources
+*
+!/index.html
+!/favicon.ico
+!/*.png
+!/public
