@@ -424,43 +424,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.tw-container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-@media (min-width: 640px) {
-
-  .tw-container {
-    max-width: 640px;
-  }
-}
-@media (min-width: 768px) {
-
-  .tw-container {
-    max-width: 768px;
-  }
-}
-@media (min-width: 1024px) {
-
-  .tw-container {
-    max-width: 1024px;
-  }
-}
-@media (min-width: 1280px) {
-
-  .tw-container {
-    max-width: 1280px;
-  }
-}
-@media (min-width: 1536px) {
-
-  .tw-container {
-    max-width: 1536px;
-  }
-}
 .tw-order-2 {
   order: 2;
 }
@@ -476,20 +439,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tw-mt-\[48px\] {
   margin-top: 48px;
 }
-.tw-mt-8 {
-  margin-top: 2rem;
-}
-.tw-mt-12 {
-  margin-top: 3rem;
+.tw-mt-\[32px\] {
+  margin-top: 32px;
 }
 .tw-mt-2 {
   margin-top: 0.5rem;
 }
 .tw-mb-4 {
   margin-bottom: 1rem;
-}
-.tw-mt-\[32px\] {
-  margin-top: 32px;
 }
 .tw-flex {
   display: flex;
@@ -608,38 +565,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.tw-px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-.tw-py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-.tw-px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-.tw-px-\[12px\] {
-  padding-left: 12px;
-  padding-right: 12px;
-}
-.tw-py-\[24px\] {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-.tw-py-\[12px\] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-.tw-px-\[6px\] {
-  padding-left: 6px;
-  padding-right: 6px;
-}
-.tw-py-\[6px\] {
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
 .tw-px-\[16px\] {
   padding-left: 16px;
   padding-right: 16px;
@@ -647,6 +572,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tw-py-\[14px\] {
   padding-top: 14px;
   padding-bottom: 14px;
+}
+.tw-px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.tw-py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 .tw-font-sans {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -657,20 +590,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tw-text-\[46px\] {
   font-size: 46px;
 }
-.tw-text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-.tw-text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.tw-text-\[30px\] {
+  font-size: 30px;
 }
 .tw-text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-.tw-text-\[30px\] {
-  font-size: 30px;
 }
 .tw-font-medium {
   font-weight: 500;
@@ -800,17 +725,13 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-left: 5rem;
   }
 
-  .lg\:tw-text-\[60px\] {
-    font-size: 60px;
+  .lg\:tw-text-\[30px\] {
+    font-size: 30px;
   }
 
   .lg\:tw-text-6xl {
     font-size: 3.75rem;
     line-height: 1;
-  }
-
-  .lg\:tw-text-\[30px\] {
-    font-size: 30px;
   }
 }
 
