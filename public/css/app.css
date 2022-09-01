@@ -676,6 +676,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: block;
   }
 
+  .lg\:tw-inline {
+    display: inline;
+  }
+
   .lg\:tw-hidden {
     display: none;
   }
@@ -735,6 +739,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:tw-text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .lg\:tw-text-\[50px\] {
+    font-size: 50px;
+  }
+
+  .lg\:tw-text-\[45px\] {
+    font-size: 45px;
   }
 }
 
